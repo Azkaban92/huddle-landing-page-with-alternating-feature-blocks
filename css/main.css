@@ -172,9 +172,10 @@ textarea {
           margin: 0px 17px 0px 17px;
         }
 
+   #p1 {margin-bottom: 37px;}
 
    #p2 {
-        margin-top: 37px;
+        margin-top: 0px;
         padding-left: 45px;
         padding-right: 45px;
       }
