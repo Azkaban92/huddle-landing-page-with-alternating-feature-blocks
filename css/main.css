@@ -312,12 +312,95 @@ i {
 
 {
 
+  /* Common styles */
 
+    body {
+           font-size: 18px;
+           padding: 0px;
+           margin: 0px;
 
+         }
 
+    p {margin: 0px;}
 
+    header {
+             background-image: url("../img/bg-hero-desktop.svg");
+             background-size: cover;
+             height: 723px;
+             background-color: #edfbfe;
+             margin-bottom: 59px;
+           }
 
+    .heading {
+               color: #01262f;
+               margin-top: 0px;
+               font-size: 48px;
+               font-family: "Poppins";
+               font-weight: 600;
+             }
 
+    .p {
+         color: #01262f;
+         font-family: "Open Sans";
+         font-weight: 400;
+         font-size: 24px;
+       }
+
+    .call-to-actions {
+                       font-family: "Open Sans";
+                       font-weight: 700;
+                       font-size: 20px;
+                     }
+
+  /* Top page */
+
+    #img1 {
+           width: 240px;
+           height: 39px;
+           float: left;
+           margin-top: 60px;
+           margin-left: 80px;
+           padding-bottom: 96px;
+         }
+
+    .trial {
+           float: right;
+           margin-top: 60px;
+           padding: 0px 70px 0px 70px;
+           margin-right: 80px;
+           font-size: 30px;
+           border: 1px solid #e2edf3;
+           background-color: white;
+           border-radius: 200px;
+         }
+
+         .flex-container1 {
+                          display: flex;
+                          flex-flow: row wrap;
+                          clear: both;
+                          margin: 0px 17px 0px 17px;
+                          align-items: center;
+                          text-align: left;
+                          margin-left: 80px;
+                          margin-right: 88px;
+                          }
+
+.column1a {width: 50%;}
+
+.column2a {width: 50%;}
+
+#img2 { width: 680px;
+        height: 478px;}
+
+#p3 {margin-top: 39px;
+    border: 1px solid #fe52c0;
+    width: 30%;
+    text-align: center;
+    background-color: #fe52c0;
+    color: white;
+    font-weight: normal;
+    border-radius: 50px;
+    padding: 23px 73px 23px 73px;}
 
 
 
