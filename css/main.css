@@ -253,15 +253,6 @@ textarea {
 
        }
 
-       #img6 {
-              width: 120px;
-              height: 20px;
-              float: left;
-              margin-top: 32px;
-              margin-left: 15px;
-              margin-bottom: 27px;
-            }
-
       #logo2 {transform: scale(0.5);}
 
      .logo3 {padding-top: 140px;
@@ -480,11 +471,91 @@ i {
 
 #p6 {margin-right: 208px; width: 650px;}
 
+/* End page */
 
+.central {text-align: center;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          margin: auto;
+          transform: translateY(70px);
+          border: 5px solid #fafafa;
+          background-color: white;
+          width: 75%;
+          border-radius: 25px;
+          margin-top: 156px;
+          padding-top: 80px;
+          padding-bottom: 80px;}
 
+#p7   {
+         margin-top: 36px;
+         border: 1px solid #fe52c0;
+         border-radius: 50px;
+         padding: 32px 100px 32px 100px;
+         color: white;
+         background-color: #fe52c0;
+         text-align: center;
+         width: 40%;
+         margin-bottom: 0px;
 
+       }
 
+       #logo2 {transform: scale(1.0);}
 
+       .logo3 {padding-top: 140px;
+               margin-bottom: 30px;
+               margin-left: 20px;}
+
+       #p8 {clear: both;
+             color: white;
+             margin-left: 15px;
+             margin-bottom: 30px;}
+
+       #p9 {clear: both;
+            color: white;
+            margin-left: 15px;
+            margin-bottom: 30px;}
+
+       #p10 {clear: both;
+       color: white;
+       margin-left: 15px;
+       margin-bottom: 65px;}
+
+       #p11, #p12, #p13, #p14, #p15, #p16, #p17 {color: white; margin-bottom: 28px; margin-left: 118px;}
+
+       #p16 {margin-bottom: 57px;}
+
+       footer {background-color: #002a2e;
+         color: white;
+         height: 651px;}
+
+       i {
+          border-radius: 50px;
+          text-align: center;
+          }
+
+       .icons2 {text-align: center;}
+
+       .wlogo { fill: white;
+         float: left;
+        }
+
+       #p17 {margin-top: 23px;
+       font-size: small;
+       text-align: right;
+       margin-right: 80px;}
+
+.flex-container5 {display: flex;
+                  justify-content: center;
+                  margin: auto;}
+
+.column1e {width: 40%;}
+.column2e {width: 20%;}
+.column3e {width: 20%;}
+.column4e {width: 20%;}
+
+i {margin-left: 20px;
+   margin-right: 20px;}
 
 }
 
