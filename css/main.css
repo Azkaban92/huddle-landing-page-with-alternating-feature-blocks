@@ -478,7 +478,7 @@ i {
           flex-flow: column wrap;
           align-items: center;
           margin: auto;
-          transform: translateY(70px);
+          transform: translateY(130px);
           border: 5px solid #fafafa;
           background-color: white;
           width: 75%;
@@ -502,7 +502,7 @@ i {
 
        #logo2 {transform: scale(1.0);}
 
-       .logo3 {padding-top: 140px;
+       .logo3 {padding-top: 240px;
                margin-bottom: 30px;
                margin-left: 20px;}
 
@@ -537,8 +537,8 @@ i {
        .icons2 {text-align: center;}
 
        .wlogo { fill: white;
-         float: left;
-        }
+                float: left;
+              }
 
        #p17 {margin-top: 23px;
        font-size: small;
