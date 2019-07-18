@@ -109,6 +109,8 @@ textarea {
 
    {
 
+ /* Common styles */
+
    body {
           font-size: 18px;
           padding: 0px;
@@ -120,7 +122,7 @@ textarea {
 
    header {
             background-image: url(images/bg-hero-mobile.svg);
-            height: 720px;
+            height: 770px;
             background-color: #edfbfe;
             margin-bottom: 59px;
           }
@@ -129,15 +131,22 @@ textarea {
               color: #01262f;
               margin-top: 0px;
               font-size: 18px;
-              font-family: "Poppins"; font-weight: 600;
+              font-family: "Poppins";
+              font-weight: 600;
             }
 
    .p {
         color: #01262f;
-        font-family: "Open Sans"; font-weight: 400;
+        font-family: "Open Sans";
+        font-weight: 400;
       }
 
-   .call-to-actions {font-family: "Open Sans"; font-weight: 700;}
+   .call-to-actions {
+                      font-family: "Open Sans";
+                      font-weight: 700;
+                    }
+
+ /* Top page */
 
    #img1 {
           width: 120px;
@@ -168,13 +177,18 @@ textarea {
 
                   }
 
-   #img2 {
-          width: 270px;
-          height: 169px;
-          margin: 0px 17px 0px 17px;
-        }
+ /* Mid page */
+
+   #img2, #img3, #img4, #img5 {
+                                width: 270px;
+                                height: 169px;
+                                margin: 0px 17px 0px 17px;
+                              }
 
    #head1 {margin-bottom: 37px;}
+
+ #head2, #head3, #head4 {margin-top: 63px;}
+
 
    #p2 {
         margin-top: 0px;
@@ -190,34 +204,18 @@ textarea {
          color: white;
          background-color: #fe52c0;
          text-align: center;
-         width: 50%;
+         width: 60%;
          margin-bottom: 55px;
        }
 
+ #p4, #p4, #p5, #p6 {
+                    margin-top: 29px;
+                    padding: 0px 41px 35px 41px;
+                    }
 
-       .flex-container2 {
-                        display: flex;
-                        flex-flow: column wrap;
-                        align-items: center;
-                        margin: 0px 30px 36px 30px;
-                        border: 1px solid #e2edf3;
-                        border-radius: 25px;
-                        text-align: center;
+ .flex-container2, .flex-container3, .flex-container4
 
-                        }
-
-                        #img3 {
-                               width: 270px;
-                               height: 221px;
-                               margin: 57px 17px 0px 17px;
-                             }
-
-
- #head2 {margin-top: 63px;}
-
- #p4 {margin-top: 29px; padding: 0px 41px 35px 41px;}
-
- .flex-container3 {
+                 {
                   display: flex;
                   flex-flow: column wrap;
                   align-items: center;
@@ -225,41 +223,26 @@ textarea {
                   border: 1px solid #e2edf3;
                   border-radius: 25px;
                   text-align: center;
-
                   }
 
-                  #img4 {
-                         width: 270px;
-                         height: 221px;
-                         margin: 57px 17px 0px 17px;
-                       }
+     /* End page */
 
+.central {text-align: center;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;}
 
-#head3 {margin-top: 63px;}
-
-#p5 {margin-top: 29px; padding: 0px 41px 35px 41px;}
-
-.flex-container4 {
-                 display: flex;
-                 flex-flow: column wrap;
-                 align-items: center;
-                 margin: 0px 30px 36px 30px;
-                 border: 1px solid #e2edf3;
-                 border-radius: 25px;
-                 text-align: center;
-
-                 }
-
-                 #img5 {
-                        width: 270px;
-                        height: 221px;
-                        margin: 57px 17px 0px 17px;
-                      }
-
-
-#head4 {margin-top: 63px;}
-
-#p6 {margin-top: 29px; padding: 0px 41px 35px 41px;}
+#p7   {
+         margin-top: 38px;
+         border: 1px solid #fe52c0;
+         border-radius: 50px;
+         padding: 10px 30px 10px 30px;
+         color: white;
+         background-color: #fe52c0;
+         text-align: center;
+         width: 60%;
+         margin-bottom: 55px;
+       }
 
  }
 /* ==========================================================================
