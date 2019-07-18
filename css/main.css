@@ -481,7 +481,7 @@ i {
           transform: translateY(130px);
           border: 5px solid #fafafa;
           background-color: white;
-          width: 75%;
+          width: 60%;
           border-radius: 25px;
           margin-top: 156px;
           padding-top: 80px;
@@ -504,7 +504,7 @@ i {
 
        .logo3 {padding-top: 240px;
                margin-bottom: 30px;
-               margin-left: 20px;}
+               margin-left: 114px;}
 
        #p8 {clear: both;
              color: white;
@@ -527,7 +527,7 @@ i {
 
        footer {background-color: #002a2e;
          color: white;
-         height: 651px;}
+         height: 751px;}
 
        i {
           border-radius: 50px;
@@ -549,7 +549,7 @@ i {
                   justify-content: center;
                   margin: auto;}
 
-.column1e {width: 40%;}
+.column1e {width: 40%; margin-left: 114px;}
 .column2e {width: 20%;}
 .column3e {width: 20%;}
 .column4e {width: 20%;}
