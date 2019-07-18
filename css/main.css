@@ -122,6 +122,7 @@ textarea {
             background-image: url(images/bg-hero-mobile.svg);
             height: 720px;
             background-color: #edfbfe;
+            margin-bottom: 59px;
           }
 
    .heading {
@@ -172,7 +173,7 @@ textarea {
           margin: 0px 17px 0px 17px;
         }
 
-   #p1 {margin-bottom: 37px;}
+   #head1 {margin-bottom: 37px;}
 
    #p2 {
         margin-top: 0px;
@@ -193,12 +194,26 @@ textarea {
        }
 
 
+       .flex-container2 {
+                        display: flex;
+                        flex-flow: column wrap;
+                        align-items: center;
+                        margin: 0px 30px 36px 30px;
+                        border: 1px solid #e2edf3;
+                        border-radius: 25px;
+
+                        }
+
+                        #img3 {
+                               width: 270px;
+                               height: 221px;
+                               margin: 57px 17px 0px 17px;
+                             }
 
 
+ #head2 {margin-top: 63px;}
 
-
-
-
+ #p4 {margin-top: 29px; padding: 0px 41px 35px 41px;}
 
 
 
