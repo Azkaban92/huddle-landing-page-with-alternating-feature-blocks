@@ -10,6 +10,9 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   @import url("https://fonts.googleapis.com/css?family=Poppins");
+   @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 
 html {
   color: #222;
@@ -100,8 +103,7 @@ textarea {
 
  /* Mobile */
 
-   @import url("https://fonts.googleapis.com/css?family=Poppins");
-   @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 
    @media screen and (max-width: 767px)
 
