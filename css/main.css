@@ -402,6 +402,87 @@ i {
     border-radius: 50px;
     padding: 23px 73px 23px 73px;}
 
+/* Mid page */
+
+
+.flex-container2 {
+                 display: flex;
+                 flex-flow: row wrap;
+                 clear: both;
+                 margin: 0px 17px 0px 17px;
+                 align-items: center;
+                 text-align: left;
+                 margin-left: 100px;
+                 margin-top: 154px;
+                 margin-right: 104px;
+                 margin-bottom: 36px;
+                 border: 3px solid #f7f7f7;
+                 padding: 126px 118px 50px 122px;
+                 }
+
+.column1b {width: 30%; order: 2;}
+
+.column2b {width: 70%; order: 1;}
+
+#img3 { width: 386px;
+        height: 331px;}
+
+#p4 {margin-right: 208px; width: 650px;}
+
+
+.flex-container3 {
+                 display: flex;
+                 flex-flow: row wrap;
+                 clear: both;
+                 margin: 0px 17px 0px 17px;
+                 align-items: center;
+                 text-align: left;
+                 margin-left: 100px;
+                 margin-top: 36px;
+                 margin-right: 104px;
+                 margin-bottom: 36px;
+                 border: 3px solid #f7f7f7;
+                 padding: 126px 118px 50px 122px;
+                 }
+
+.column1c {width: 30%; order: 1;}
+
+.column2c {width: 70%; order: 2;}
+
+#img4 { width: 386px;
+        height: 331px;
+      }
+
+#head3 {margin-left: 174px;}
+#p5 {margin-left: 174px; width: 650px;}
+
+.flex-container4 {
+                 display: flex;
+                 flex-flow: row wrap;
+                 clear: both;
+                 margin: 0px 17px 0px 17px;
+                 align-items: center;
+                 text-align: left;
+                 margin-left: 100px;
+                 margin-top: 36px;
+                 margin-right: 104px;
+                 margin-bottom: 36px;
+                 border: 3px solid #f7f7f7;
+                 padding: 126px 118px 50px 122px;
+                 }
+
+.column1d {width: 30%; order: 2;}
+
+.column2d {width: 70%; order: 1;}
+
+#img5 { width: 386px;
+        height: 331px;}
+
+#p6 {margin-right: 208px; width: 650px;}
+
+
+
+
 
 
 
