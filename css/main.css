@@ -122,6 +122,7 @@ textarea {
 
    header {
             background-image: url("../img/bg-hero-mobile.svg");
+            background-size: cover;
             height: 770px;
             background-color: #edfbfe;
             margin-bottom: 59px;
