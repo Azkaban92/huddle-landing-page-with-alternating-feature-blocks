@@ -103,13 +103,11 @@ textarea {
 
  /* Mobile */
 
-
-
 @media screen and (max-width: 767px)
 
 {
 
- /* Common styles */
+ /* Mobile page */
 
 body {font-size: 18px;
       padding: 0px;
@@ -123,6 +121,10 @@ header {background-image: url("../img/bg-hero-mobile.svg");
         background-color: #edfbfe;
         margin-bottom: 59px;}
 
+.column1a {display: flex;
+           flex-flow: column nowrap;
+           align-items: center;}
+
 .heading {color: #01262f;
           margin-top: 0px;
           font-size: 18px;
@@ -131,8 +133,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 
 .p {color: #01262f;
     font-family: "Open Sans";
-    font-weight: 400;
-}
+    font-weight: 400;}
 
 .call-to-actions {font-family: "Open Sans";
                   font-weight: 700;}
@@ -140,7 +141,6 @@ header {background-image: url("../img/bg-hero-mobile.svg");
  /* Top page */
 
 #img1 {width: 120px;
-       height: 20px;
        float: left;
        margin-top: 32px;
        margin-left: 15px;
@@ -163,8 +163,11 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 
  /* Mid page */
 
-#img2, #img3, #img4, #img5 {width: 270px;
-                            height: 169px;
+#img2 {margin: 0px 17px 0px 17px;
+       width: 60%;}
+
+#img3, #img4, #img5 {width: 70%;
+                            max-width: 100%;
                             margin: 0px 17px 0px 17px;}
 
 #head1 {margin-bottom: 37px;}
@@ -183,10 +186,9 @@ header {background-image: url("../img/bg-hero-mobile.svg");
      color: white;
      background-color: #fe52c0;
      text-align: center;
-     width: 70%;
      margin-bottom: 55px;}
 
- #p4, #p4, #p5, #p6 {margin-top: 29px;
+ #p4, #p5, #p6 {margin-top: 29px;
                      padding: 0px 41px 35px 41px;}
 
  .flex-container2, .flex-container3, .flex-container4 {display: flex;
@@ -218,7 +220,6 @@ header {background-image: url("../img/bg-hero-mobile.svg");
     color: white;
     background-color: #fe52c0;
     text-align: center;
-    width: 70%;
     margin-bottom: 0px;}
 
 #logo2 {transform: scale(0.5);}
@@ -265,13 +266,186 @@ i {border-radius: 50px;
       text-align: center;}
 
 }
-/* Desktop page */
 
-@media screen and (min-width: 1440px)
+/* Tablet page */
+
+@media screen and (min-width: 768px) and (max-width: 1439px)
 
 {
 
-  /* Common styles */
+   /* Mobile page */
+
+   /* Common styles */
+
+  body {font-size: 24px;
+        padding: 0px;
+        margin: 0px;}
+
+  p {margin: 0px;}
+
+  header {background-image: url("../img/bg-hero-desktop.svg");
+          background-size: 100% 100%;
+          height: 1070px;
+          background-color: #edfbfe;
+          margin-bottom: 59px;}
+
+  .column1a {display: flex;
+             flex-flow: column nowrap;
+             align-items: center;}
+
+  .heading {color: #01262f;
+            margin-top: 0px;
+            font-size: 18px;
+            font-family: "Poppins";
+            font-weight: 600;}
+
+  .p {color: #01262f;
+      font-family: "Open Sans";
+      font-weight: 400;}
+
+  .call-to-actions {font-family: "Open Sans";
+                    font-weight: 700;}
+
+   /* Top page */
+
+  #img1 {width: 240px;
+         float: left;
+         margin-top: 32px;
+         margin-left: 15px;
+         padding-bottom: 96px;}
+
+  .trial {float: right;
+          margin-top: 32px;
+          padding: 0px 20px 0px 20px;
+          margin-right: 30px;
+          font-size: 34px;
+          border: 1px solid #e2edf3;
+          background-color: white;
+          border-radius: 200px;}
+
+  .flex-container1 {display: flex;
+                    flex-flow: column wrap;
+                    clear: both;
+                    margin: 0px 17px 0px 17px;
+                    align-items: center;
+                    text-align: center;}
+
+   /* Mid page */
+
+  #img2 {margin: 0px 17px 0px 17px;
+         width: 60%;}
+
+  #img3, #img4, #img5 {width: 70%;
+                              max-width: 100%;
+                              margin: 0px 17px 0px 17px;}
+
+  #head1 {margin-bottom: 37px; font-size: 40px;}
+
+   #head2, #head3, #head4 {margin-top: 63px; font-size: 30px;}
+
+   #head5 {font-size: 40px;}
+
+  #p2 {margin-top: 0px;
+       padding-left: 45px;
+       padding-right: 45px;}
+
+  #p3 {margin-top: 38px;
+       border: 1px solid #fe52c0;
+       border-radius: 50px;
+       padding: 10px 30px 10px 30px;
+       color: white;
+       background-color: #fe52c0;
+       text-align: center;
+       margin-bottom: 55px;}
+
+   #p4, #p5, #p6 {margin-top: 29px;
+                       padding: 0px 41px 35px 41px;}
+
+   .flex-container2, .flex-container3, .flex-container4 {display: flex;
+                                                         flex-flow: column wrap;
+                                                         align-items: center;
+                                                         margin: 0px 30px 36px 30px;
+                                                         border: 1px solid #e2edf3;
+                                                         border-radius: 25px;
+                                                         text-align: center;}
+
+    /* End page */
+
+  .central {text-align: center;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            margin: auto;
+            transform: translateY(70px);
+            border: 30px solid white;
+            background-color: white;
+            width: 75%;
+            border-radius: 25px;
+            margin-top: -70px;}
+
+  #p7 {margin-top: 38px;
+      border: 1px solid #fe52c0;
+      border-radius: 50px;
+      padding: 10px 30px 10px 30px;
+      color: white;
+      background-color: #fe52c0;
+      text-align: center;
+      margin-bottom: 0px;}
+
+  #logo2 {transform: scale(0.5);}
+
+    .logo3 {padding-top: 140px;
+    margin-bottom: 30px;
+    margin-left: 20px;}
+
+  #p8 {clear: both;
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 30px;}
+
+  #p9 {clear: both;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 30px;}
+
+  #p10 {clear: both;
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 65px;}
+
+  #p11, #p12, #p13, #p14, #p15, #p16, #p17 {color: white;
+                                            margin-bottom: 28px;
+                                            margin-left: 20px;}
+
+  #p16 {margin-bottom: 57px;}
+
+  footer {background-color: #002a2e;
+    color: white;
+    height: 920px;}
+
+  i {border-radius: 50px;
+   text-align: center;}
+
+  .icons2 {text-align: center;}
+
+  .wlogo {fill: white;
+          float: left;}
+
+  #p17 {margin-top: 23px;
+        font-size: medium;
+        text-align: center;}
+
+
+}
+
+
+/* Desktop page */
+
+@media screen and (min-width: 1440px) and (max-width: 1920px)
+
+{
+
+  /* Mobile page */
 
  body {font-size: 18px;
       padding: 0px;
@@ -371,7 +545,6 @@ i {border-radius: 50px;
 
 #p4 {margin-right: 208px;
      width: 650px;}
-
 
 .flex-container3 {display: flex;
                   flex-flow: row wrap;
