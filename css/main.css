@@ -107,8 +107,6 @@ textarea {
 
 {
 
- /* Mobile page */
-
 body {font-size: 18px;
       padding: 0px;
       margin: 0px;}
@@ -273,10 +271,6 @@ i {border-radius: 50px;
 
 {
 
-   /* Mobile page */
-
-   /* Common styles */
-
   body {font-size: 24px;
         padding: 0px;
         margin: 0px;}
@@ -435,17 +429,13 @@ i {border-radius: 50px;
         font-size: medium;
         text-align: center;}
 
-
 }
-
 
 /* Desktop page */
 
 @media screen and (min-width: 1440px) and (max-width: 1920px)
 
 {
-
-  /* Mobile page */
 
  body {font-size: 18px;
       padding: 0px;
