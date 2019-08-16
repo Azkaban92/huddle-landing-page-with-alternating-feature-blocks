@@ -163,13 +163,12 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 
 .mockups {width: 60%;}
 
-#img3, #img4, #img5 {width: 70%;
-                            max-width: 80%;
-                            margin: 0px 17px 0px 17px;}
+.together, .conversation, .users {width: 70%;
+                                  max-width: 80%;}
 
 .column1a__h {margin-bottom: 37px;}
 
- #head2, #head3, .column2d__h {margin-top: 63px;}
+ .column2b__h, .column2c__h, .column2d__h {margin-top: 63px;}
 
 
 .column1a__p {margin: 0 45px 0 45px;}
@@ -183,7 +182,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
      text-align: center;
      margin-bottom: 55px;}
 
- #p4, #p5, .column2d__p {margin-top: 29px;
+ .column2b__p, .column2c__p, .column2d__p {margin-top: 29px;
                      padding: 0px 41px 35px 41px;}
 
  .flex-container2, .flex-container3, .flex-container4 {display: flex;
@@ -208,7 +207,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
           border-radius: 25px;
           margin-top: -70px;}
 
-#p7 {margin-top: 38px;
+.central__p {margin-top: 38px;
     border: 1px solid #fe52c0;
     border-radius: 50px;
     padding: 10px 30px 10px 30px;
@@ -223,30 +222,24 @@ header {background-image: url("../img/bg-hero-mobile.svg");
   margin-bottom: 30px;
   margin-left: 20px;}
 
-#p8 {clear: both;
+.column1e__p {clear: both;
 color: white;
 margin-left: 15px;
 margin-bottom: 30px;}
-
-#p9 {clear: both;
-  color: white;
-  margin-left: 15px;
-  margin-bottom: 30px;}
 
 #p10 {clear: both;
 color: white;
 margin-left: 15px;
 margin-bottom: 65px;}
 
-#p11, #p12, #p13, #p14, #p15, #p16, #p17 {color: white;
+.column2e__p, #p16 {                color: white;
                                           margin-bottom: 28px;
                                           margin-left: 20px;}
 
 #p16 {margin-bottom: 57px;}
 
 footer {background-color: #002a2e;
-  color: white;
-  height: 920px;}
+  color: white;}
 
 i {border-radius: 50px;
  text-align: center;}
@@ -257,7 +250,9 @@ i {border-radius: 50px;
         float: left;}
 
 #p17 {margin-top: 23px;
+      padding-bottom: 40px;
       font-size: small;
+      color: white;
       text-align: center;}
 
 }
@@ -326,15 +321,14 @@ i {border-radius: 50px;
   .mockups {margin: 0px 17px 0px 17px;
          width: 60%;}
 
-  #img3, #img4, #img5 {width: 80%;
-                              max-width: 90%;
-                              margin: 0px 17px 0px 17px;}
+  .together, .conversation, .users {width: 80%;
+                              max-width: 90%;}
 
   .column1a__h {margin-bottom: 37px; font-size: 40px;}
 
-   #head2, #head3, .column2d__h {margin-top: 63px; font-size: 30px;}
+   .column2b__h, .column2c__h, .column2d__h {margin-top: 63px; font-size: 30px;}
 
-   #head5 {font-size: 40px;}
+   .central__h {font-size: 40px;}
 
   .column1a__p {margin-top: 0px;
        padding-left: 45px;
@@ -349,7 +343,7 @@ i {border-radius: 50px;
        text-align: center;
        margin-bottom: 55px;}
 
-   #p4, #p5, .column2d__p {margin-top: 29px;
+   .column2b__p, .column2c__p, .column2d__p {margin-top: 29px;
                        padding: 0px 41px 35px 41px;}
 
    .flex-container2, .flex-container3, .flex-container4 {display: flex;
@@ -374,7 +368,7 @@ i {border-radius: 50px;
             border-radius: 25px;
             margin-top: -70px;}
 
-  #p7 {margin-top: 38px;
+  .central__p {margin-top: 38px;
       border: 1px solid #fe52c0;
       border-radius: 50px;
       padding: 10px 30px 10px 30px;
@@ -389,30 +383,24 @@ i {border-radius: 50px;
     margin-bottom: 30px;
     margin-left: 20px;}
 
-  #p8 {clear: both;
+  .column1e__p {clear: both;
   color: white;
   margin-left: 15px;
   margin-bottom: 30px;}
-
-  #p9 {clear: both;
-    color: white;
-    margin-left: 15px;
-    margin-bottom: 30px;}
 
   #p10 {clear: both;
   color: white;
   margin-left: 15px;
   margin-bottom: 65px;}
 
-  #p11, #p12, #p13, #p14, #p15, #p16, #p17 {color: white;
+.column2e__p, #p16 {color: white;
                                             margin-bottom: 28px;
                                             margin-left: 20px;}
 
   #p16 {margin-bottom: 57px;}
 
   footer {background-color: #002a2e;
-    color: white;
-    height: 920px;}
+    color: white;}
 
   i {border-radius: 50px;
    text-align: center;}
@@ -423,6 +411,8 @@ i {border-radius: 50px;
           float: left;}
 
   #p17 {margin-top: 23px;
+        color: white;
+        padding-bottom: 40px;
         font-size: medium;
         text-align: center;}
 
@@ -527,10 +517,10 @@ i {border-radius: 50px;
 .column2b {width: 70%;
            order: 1;}
 
-#img3 {width: 386px;
+.together {width: 386px;
        height: 331px;}
 
-#p4 {margin-right: 208px;
+.column2b__p {margin-right: 208px;
      width: 650px;}
 
 .flex-container3 {display: flex;
@@ -552,12 +542,12 @@ i {border-radius: 50px;
 .column2c {width: 70%;
            order: 2;}
 
-#img4 {width: 386px;
+.conversation {width: 386px;
        height: 331px;}
 
-#head3 {margin-left: 174px;}
+.column2c__h {margin-left: 174px;}
 
-#p5 {margin-left: 174px;
+.column2c__p {margin-left: 174px;
      width: 650px;}
 
 .flex-container4 {display: flex;
@@ -575,7 +565,7 @@ i {border-radius: 50px;
 .column2d {width: 70%;
            order: 1;}
 
-#img5 {width: 386px;
+.users {width: 386px;
        height: 331px;}
 
 .column2d__p {margin-right: 208px;
@@ -597,7 +587,7 @@ i {border-radius: 50px;
           padding-top: 80px;
           padding-bottom: 80px;}
 
-#p7 {margin-top: 36px;
+.central__p {margin-top: 36px;
      border: 1px solid #fe52c0;
      border-radius: 50px;
      padding: 32px 100px 32px 100px;
@@ -613,12 +603,7 @@ i {border-radius: 50px;
         margin-bottom: 30px;
         margin-left: 114px;}
 
-#p8 {clear: both;
-     color: white;
-     margin-left: 15px;
-     margin-bottom: 30px;}
-
-#p9 {clear: both;
+.column1e__p {clear: both;
      color: white;
      margin-left: 15px;
      margin-bottom: 30px;}
@@ -628,15 +613,14 @@ i {border-radius: 50px;
       margin-left: 15px;
       margin-bottom: 65px;}
 
-#p11, #p12, #p13, #p14, #p15, #p16, #p17 {color: white;
+.column2e__p, #p16 {color: white;
                                           margin-bottom: 28px;
                                           margin-left: 118px;}
 
 #p16 {margin-bottom: 57px;}
 
 footer {background-color: #002a2e;
-        color: white;
-        height: 751px;}
+        color: white;}
 
 i {border-radius: 50px;
    text-align: center;}
@@ -647,7 +631,9 @@ i {border-radius: 50px;
         float: left;}
 
  #p17 {margin-top: 23px;
+       padding-bottom: 40px;
        font-size: small;
+       color: white;
        text-align: right;
        margin-right: 80px;}
 
