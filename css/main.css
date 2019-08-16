@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+.column2d__h.column1a__p/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -114,7 +114,7 @@ body {font-size: 18px;
 p {margin: 0px;}
 
 header {background-image: url("../img/bg-hero-mobile.svg");
-        background-size: cover;
+        background-size: 100% 100%;
         height: 770px;
         background-color: #edfbfe;
         margin-bottom: 59px;}
@@ -133,12 +133,12 @@ header {background-image: url("../img/bg-hero-mobile.svg");
     font-family: "Open Sans";
     font-weight: 400;}
 
-.call-to-actions {font-family: "Open Sans";
+.btn {font-family: "Open Sans";
                   font-weight: 700;}
 
  /* Top page */
 
-#img1 {width: 120px;
+.logo {width: 120px;
        float: left;
        margin-top: 32px;
        margin-left: 15px;
@@ -161,23 +161,20 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 
  /* Mid page */
 
-#img2 {margin: 0px 17px 0px 17px;
-       width: 60%;}
+.mockups {width: 60%;}
 
 #img3, #img4, #img5 {width: 70%;
-                            max-width: 100%;
+                            max-width: 80%;
                             margin: 0px 17px 0px 17px;}
 
-#head1 {margin-bottom: 37px;}
+.column1a__h {margin-bottom: 37px;}
 
- #head2, #head3, #head4 {margin-top: 63px;}
+ #head2, #head3, .column2d__h {margin-top: 63px;}
 
 
-#p2 {margin-top: 0px;
-     padding-left: 45px;
-     padding-right: 45px;}
+.column1a__p {margin: 0 45px 0 45px;}
 
-#p3 {margin-top: 38px;
+.column1a__btn {margin-top: 38px;
      border: 1px solid #fe52c0;
      border-radius: 50px;
      padding: 10px 30px 10px 30px;
@@ -186,7 +183,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
      text-align: center;
      margin-bottom: 55px;}
 
- #p4, #p5, #p6 {margin-top: 29px;
+ #p4, #p5, .column2d__p {margin-top: 29px;
                      padding: 0px 41px 35px 41px;}
 
  .flex-container2, .flex-container3, .flex-container4 {display: flex;
@@ -289,7 +286,7 @@ i {border-radius: 50px;
 
   .heading {color: #01262f;
             margin-top: 0px;
-            font-size: 18px;
+            font-size: 36px;
             font-family: "Poppins";
             font-weight: 600;}
 
@@ -297,12 +294,12 @@ i {border-radius: 50px;
       font-family: "Open Sans";
       font-weight: 400;}
 
-  .call-to-actions {font-family: "Open Sans";
+  .btn {font-family: "Open Sans";
                     font-weight: 700;}
 
    /* Top page */
 
-  #img1 {width: 240px;
+  .logo {width: 240px;
          float: left;
          margin-top: 32px;
          margin-left: 15px;
@@ -326,24 +323,24 @@ i {border-radius: 50px;
 
    /* Mid page */
 
-  #img2 {margin: 0px 17px 0px 17px;
+  .mockups {margin: 0px 17px 0px 17px;
          width: 60%;}
 
-  #img3, #img4, #img5 {width: 70%;
-                              max-width: 100%;
+  #img3, #img4, #img5 {width: 80%;
+                              max-width: 90%;
                               margin: 0px 17px 0px 17px;}
 
-  #head1 {margin-bottom: 37px; font-size: 40px;}
+  .column1a__h {margin-bottom: 37px; font-size: 40px;}
 
-   #head2, #head3, #head4 {margin-top: 63px; font-size: 30px;}
+   #head2, #head3, .column2d__h {margin-top: 63px; font-size: 30px;}
 
    #head5 {font-size: 40px;}
 
-  #p2 {margin-top: 0px;
+  .column1a__p {margin-top: 0px;
        padding-left: 45px;
        padding-right: 45px;}
 
-  #p3 {margin-top: 38px;
+  .column1a__btn {margin-top: 38px;
        border: 1px solid #fe52c0;
        border-radius: 50px;
        padding: 10px 30px 10px 30px;
@@ -352,7 +349,7 @@ i {border-radius: 50px;
        text-align: center;
        margin-bottom: 55px;}
 
-   #p4, #p5, #p6 {margin-top: 29px;
+   #p4, #p5, .column2d__p {margin-top: 29px;
                        padding: 0px 41px 35px 41px;}
 
    .flex-container2, .flex-container3, .flex-container4 {display: flex;
@@ -460,13 +457,13 @@ i {border-radius: 50px;
      font-weight: 400;
      font-size: 24px;}
 
- .call-to-actions {font-family: "Open Sans";
+ .btn {font-family: "Open Sans";
                    font-weight: 700;
                    font-size: 20px;}
 
   /* Top page */
 
- #img1 {width: 240px;
+ .logo {width: 240px;
         height: 39px;
         float: left;
         margin-top: 60px;
@@ -495,10 +492,10 @@ i {border-radius: 50px;
 
 .column2a {width: 50%;}
 
-#img2 {width: 680px;
+.mockups {width: 680px;
        height: 478px;}
 
-#p3 {margin-top: 39px;
+.column1a__btn {margin-top: 39px;
      border: 1px solid #fe52c0;
      width: 30%;
      text-align: center;
@@ -581,7 +578,7 @@ i {border-radius: 50px;
 #img5 {width: 386px;
        height: 331px;}
 
-#p6 {margin-right: 208px;
+.column2d__p {margin-right: 208px;
      width: 650px;}
 
 /* End page */
