@@ -183,7 +183,8 @@ header {background-image: url("../img/bg-hero-mobile.svg");
                 margin-bottom: 55px;}
 
  .column2b__p, .column2c__p, .column2d__p {margin-top: 29px;
-                                           padding: 0px 41px 35px 41px;}
+                                           padding: 0px 41px 35px 41px;
+                                           color: hsl(208, 11%, 55%);}
 
  .flex-container2, .flex-container3, .flex-container4 {display: flex;
                                                        flex-flow: column wrap;
@@ -228,13 +229,13 @@ header {background-image: url("../img/bg-hero-mobile.svg");
               margin-bottom: 30px;}
 
 .email__p {clear: both;
-color: white;
-margin-left: 15px;
-margin-bottom: 65px;}
+           color: white;
+           margin-left: 15px;
+           margin-bottom: 65px;}
 
-.column2e__p, .contact__p {color: white;
-                    margin-bottom: 28px;
-                    margin-left: 20px;}
+.column2e__p, .contact__p, .column3e__p {color: white;
+                                         margin-bottom: 28px;
+                                         margin-left: 20px;}
 
 .contact__p {margin-bottom: 57px;}
 
@@ -242,7 +243,7 @@ footer {background-color: #002a2e;
         color: white;}
 
 i {border-radius: 50px;
- text-align: center;}
+   text-align: center;}
 
 .icons2 {text-align: center;}
 
@@ -318,8 +319,7 @@ i {border-radius: 50px;
 
    /* Mid page */
 
-  .mockups {margin: 0px 17px 0px 17px;
-            width: 60%;}
+  .mockups {width: 60%;}
 
   .together, .conversation, .users {margin: 40px 0 40px 0;
                                     width: 80%;
@@ -347,7 +347,8 @@ i {border-radius: 50px;
                   margin-bottom: 55px;}
 
    .column2b__p, .column2c__p, .column2d__p {margin-top: 29px;
-                                             padding: 0px 41px 35px 41px;}
+                                             padding: 0px 41px 35px 41px;
+                                             color: hsl(208, 11%, 55%);}
 
    .flex-container2, .flex-container3, .flex-container4 {display: flex;
                                                          flex-flow: column wrap;
@@ -386,7 +387,7 @@ i {border-radius: 50px;
             margin-bottom: 30px;
             margin-left: 114px;}
 
-.column1e, .column2e, .column3e__p {margin-left: 114px;}
+.column1e, .column2e, .column3e {margin-left: 114px; color: white;}
 
   .column1e__p {clear: both;
                 color: white;
@@ -399,8 +400,9 @@ i {border-radius: 50px;
         margin-left: 15px;
         margin-bottom: 65px;}
 
-.column2e__p, .contact__p {color: white;
-                           margin-bottom: 28px;}
+.column2e__p, .contact__p, .column3e__p {color: white;
+                                         margin-bottom: 28px;
+                                         margin-left: 20px;}
 
   .contact__p {margin-bottom: 57px;}
 
@@ -525,7 +527,8 @@ i {border-radius: 50px;
            height: 331px;}
 
 .column2b__p {margin-right: 208px;
-              width: 650px;}
+              width: 650px;
+              color: hsl(208, 11%, 55%);}
 
 .flex-container3 {display: flex;
                   flex-flow: row wrap;
@@ -552,7 +555,8 @@ i {border-radius: 50px;
 .column2c__h {margin-left: 174px;}
 
 .column2c__p {margin-left: 174px;
-              width: 650px;}
+              width: 650px;
+              color: hsl(208, 11%, 55%);}
 
 .flex-container4 {display: flex;
                   flex-flow: row wrap;
@@ -573,7 +577,8 @@ i {border-radius: 50px;
        height: 331px;}
 
 .column2d__p {margin-right: 208px;
-              width: 650px;}
+              width: 650px;
+              color: hsl(208, 11%, 55%);}
 
 /* End page */
 
@@ -617,9 +622,9 @@ i {border-radius: 50px;
       margin-left: 15px;
       margin-bottom: 65px;}
 
-.column2e__p, .contact__p {color: white;
-                                          margin-bottom: 28px;
-                                          margin-left: 118px;}
+.column2e__p, .contact__p, .column3e__p {color: white;
+                                         margin-bottom: 28px;
+                                         margin-left: 118px;}
 
 .contact__p {margin-bottom: 57px;}
 
