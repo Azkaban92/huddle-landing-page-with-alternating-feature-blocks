@@ -159,18 +159,16 @@ header {background-image: url("../img/bg-hero-mobile.svg");
           background-color: white;
           border-radius: 25px;}
 
-.central__p {margin-top: 38px;
+.central__p {margin: 38px 0 0 0;
              border: 1px solid #fe52c0;
              border-radius: 50px;
              color: white;
              background-color: #fe52c0;
-             text-align: center;
-             margin-bottom: 0px;}
+             text-align: center;}
 
 .email__p {clear: both;
            color: white;
-           margin-left: 15px;
-           margin-bottom: 65px;}
+           margin: 0 0 65px 15px;}
 
 .column2e__p,
 .contact__p,
@@ -192,7 +190,7 @@ footer {background-color: #002a2e;
               /* Icons */
 
 a i {text-decoration: none;
-    color: white;}
+     color: white;}
 
 .icons2 {text-align: center;}
 
@@ -224,9 +222,8 @@ header {height: 770px;}
        margin-top: 32px;
        margin-left: 15px;}
 
-.trial {margin-top: 32px;
-        padding: 0px 10px 0px 10px;
-        margin-right: 30px;}
+.trial {margin: 32px 30px 0 0;
+        padding: 0px 10px 0px 10px;}
 
 .flex-container1 {flex-flow: column wrap;
                   align-items: center;
@@ -234,14 +231,13 @@ header {height: 770px;}
 
 .column1a__p {margin: 0 45px 0 45px;}
 
-.column1a__btn {margin-top: 38px;
+.column1a__btn {margin: 38px 0 38px 0;
                 border: 1px solid #fe52c0;
                 border-radius: 50px;
                 padding: 10px 30px 10px 30px;
                 color: white;
                 background-color: #fe52c0;
-                text-align: center;
-                margin-bottom: 55px;}
+                text-align: center;}
 
  /* Mid page */
 
@@ -292,8 +288,7 @@ header {height: 770px;}
 
 .column1e__p {clear: both;
               color: white;
-              margin-left: 15px;
-              margin-bottom: 30px;}
+              margin: 0 0 30px 15px;}
 
 .column2e__p,
 .contact__p,
@@ -385,8 +380,7 @@ header {height: 770px;}
   .logo-svg {transform: scale(0.5);}
 
     .logo3 {padding-top: 140px;
-            margin-bottom: 30px;
-            margin-left: 114px;}
+            margin: 0 0 30px 14px;}
 
 .column1e,
 .column2e,
@@ -396,8 +390,7 @@ header {height: 770px;}
 .column1e__p {clear: both;
               color: white;
               width: 515.41px;
-              margin-left: 15px;
-              margin-bottom: 30px;}
+              margin: 0 0 30px 15px;}
 
 .column2e__p,
 .contact__p,
@@ -416,9 +409,9 @@ header {height: 770px;}
 
 body {font-size: 26px;}
 
- header {height: 770px;}
+header {height: 770px;}
 
- .heading {font-size: 48px;}
+.heading {font-size: 48px;}
 
   /* Top page */
 
@@ -426,16 +419,14 @@ body {font-size: 26px;}
         margin-top: 60px;
         margin-left: 80px;}
 
- .trial {margin-top: 60px;
+ .trial {margin: 60px 80px 0 0;
          padding: 0px 70px 0px 70px;
-         margin-right: 80px;
          font-size: 30px;}
 
 .flex-container1 {flex-flow: row wrap;
                   justify-content: space-between;
                   text-align: left;
-                  margin-left: 80px;
-                  margin-right: 88px;}
+                  margin: 0 88px 0 80px;}
 
 .column1a {width: 40%;
            justify-content: space-between;}
@@ -456,7 +447,6 @@ body {font-size: 26px;}
 .flex-container2 {display: flex;
                   flex-flow: row wrap;
                   clear: both;
-                  margin: 0px 17px 0px 17px;
                   align-items: center;
                   text-align: left;
                   margin: 154px 104px 36px 100px;
@@ -540,8 +530,7 @@ body {font-size: 26px;}
 
 .column1e__p {clear: both;
      color: white;
-     margin-left: 15px;
-     margin-bottom: 30px;}
+     margin: 0 0 30px 15px;}
 
 .column2e__p,
 .contact__p,
@@ -558,10 +547,8 @@ body {font-size: 26px;}
 .column1e {width: 40%;
            margin-left: 114px;}
 
-.column2e {width: 20%;}
-
-.column3e {width: 20%;}
-
+.column2e,
+.column3e,
 .column4e {width: 20%;}
 
 i {margin-left: 20px;
