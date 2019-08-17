@@ -101,6 +101,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a i {text-decoration: none;
+     color: white;}
+
  /* Mobile */
 
 @media screen and (min-width: 280px) and (max-width: 767px)
