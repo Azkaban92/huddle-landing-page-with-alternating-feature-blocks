@@ -155,6 +155,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
           flex-flow: column wrap;
           align-items: center;
           margin: auto;
+          box-shadow: 12px 12px 24px hsla(208, 11%, 55%, 0.4);
           border: 30px solid white;
           background-color: white;
           border-radius: 25px;}
@@ -163,6 +164,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
              border: 1px solid #fe52c0;
              border-radius: 50px;
              color: white;
+             box-shadow: 6px 6px 12px hsla(208, 11%, 55%, 0.4);
              background-color: #fe52c0;
              text-align: center;}
 
@@ -267,8 +269,9 @@ header {height: 770px;}
  .flex-container4 {display: flex;
                    flex-flow: column wrap;
                    align-items: center;
-                   margin: 0px 30px 36px 30px;
+                   margin: 0px 30px 40px 30px;
                    border: 1px solid #e2edf3;
+                   box-shadow: 12px 12px 24px hsla(208, 11%, 55%, 0.4);
                    border-radius: 25px;
                    text-align: center;}
 
@@ -328,7 +331,7 @@ header {height: 770px;}
 .column1a__p {width: 677px;
               margin: 0 45px 0 45px;}
 
-.column1a__btn {padding: 10px 30px 10px 30px;
+.column1a__btn {padding: 17px 50px 17px 50px;
                 margin-bottom: 55px;}
 
    /* Mid page */
@@ -364,6 +367,7 @@ header {height: 770px;}
                     flex-flow: column wrap;
                     align-items: center;
                     margin: 0px 30px 36px 30px;
+                    box-shadow: 12px 12px 24px hsla(208, 11%, 55%, 0.4);
                     border: 1px solid #e2edf3;
                     border-radius: 25px;
                     text-align: center;}
@@ -373,9 +377,9 @@ header {height: 770px;}
   .central {transform: translateY(70px);
             width: 75%;
             border-radius: 25px;
-            margin-top: -70px;}
+            margin-top: 0px;}
 
-  .central__p {padding: 10px 30px 10px 30px;}
+  .central__p {padding: 17px 50px;}
 
   .logo-svg {transform: scale(0.5);}
 
