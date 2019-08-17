@@ -242,10 +242,15 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 footer {background-color: #002a2e;
         color: white;}
 
-i {border-radius: 50px;
-   text-align: center;}
-
 .icons2 {text-align: center;}
+
+.fa-twitter, .fa-instagram {border: 1px solid white;
+                            padding: 5px;
+                            border-radius: 100px;}
+
+.fa-facebook-f {border: 1px solid white;
+                padding: 5px 9px;
+                border-radius: 100px;}
 
 .wlogo {fill: white;
         float: left;}
@@ -409,10 +414,15 @@ i {border-radius: 50px;
   footer {background-color: #002a2e;
           color: white;}
 
-  i {border-radius: 50px;
-     text-align: center;}
-
   .icons2 {text-align: center;}
+
+  .fa-twitter, .fa-instagram {border: 1px solid white;
+                              padding: 5px;
+                              border-radius: 100px;}
+
+  .fa-facebook-f {border: 1px solid white;
+                  padding: 5px 9px;
+                  border-radius: 100px;}
 
   .wlogo {fill: white;
           float: left;}
@@ -631,10 +641,15 @@ i {border-radius: 50px;
 footer {background-color: #002a2e;
         color: white;}
 
-i {border-radius: 50px;
-   text-align: center;}
-
 .icons2 {text-align: center;}
+
+.fa-twitter, .fa-instagram {border: 1px solid white;
+                            padding: 5px;
+                            border-radius: 100px;}
+
+.fa-facebook-f {border: 1px solid white;
+                padding: 5px 9px;
+                border-radius: 100px;}
 
 .wlogo {fill: white;
         float: left;}
