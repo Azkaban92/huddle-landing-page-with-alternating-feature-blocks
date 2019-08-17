@@ -140,10 +140,69 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 
 .flex-container1 {display: flex;
                   clear: both;}
+
+.column1a__btn {margin-top: 38px;
+                border: 1px solid #fe52c0;
+                border-radius: 50px;
+                color: white;
+                background-color: #fe52c0;
+                text-align: center;}
+
+/* End page */
+
+.central {text-align: center;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          margin: auto;
+          border: 30px solid white;
+          background-color: white;
+          border-radius: 25px;}
+
+.central__p {margin-top: 38px;
+             border: 1px solid #fe52c0;
+             border-radius: 50px;
+             color: white;
+             background-color: #fe52c0;
+             text-align: center;
+             margin-bottom: 0px;}
+
+.email__p {clear: both;
+           color: white;
+           margin-left: 15px;
+           margin-bottom: 65px;}
+
+.column2e__p,
+.contact__p,
+.column3e__p {color: white;
+              margin-bottom: 28px;}
+
+.contact__p {margin-bottom: 57px;}
+
+footer {background-color: #002a2e;
+        color: white;}
+
+.wlogo {fill: white;
+        float: left;}
+
+.copy {margin-top: 23px;
+      padding-bottom: 40px;
+      color: white;}
+
 /* Icons */
 
 a i {text-decoration: none;
     color: white;}
+
+.icons2 {text-align: center;}
+
+.fa-twitter, .fa-instagram {border: 1px solid white;
+                            padding: 5px;
+                            border-radius: 100px;}
+
+.fa-facebook-f {border: 1px solid white;
+                padding: 5px 9px;
+                border-radius: 100px;}
 
  /* Mobile */
 
@@ -171,20 +230,6 @@ header {height: 770px;}
                   align-items: center;
                   text-align: center;}
 
- /* Mid page */
-
-.mockups {width: 80%;
-          max-width: 60%;
-          min-width: 230px;}
-
-.together, .conversation, .users {width: 70%;
-                                  max-width: 80%;}
-
-.column1a__h {margin-bottom: 37px;}
-
- .column2b__h, .column2c__h, .column2d__h {margin-top: 63px;}
-
-
 .column1a__p {margin: 0 45px 0 45px;}
 
 .column1a__btn {margin-top: 38px;
@@ -196,40 +241,46 @@ header {height: 770px;}
                 text-align: center;
                 margin-bottom: 55px;}
 
- .column2b__p, .column2c__p, .column2d__p {margin-top: 29px;
-                                           padding: 0px 41px 35px 41px;
-                                           color: hsl(208, 11%, 55%);}
+ /* Mid page */
 
- .flex-container2, .flex-container3, .flex-container4 {display: flex;
-                                                       flex-flow: column wrap;
-                                                       align-items: center;
-                                                       margin: 0px 30px 36px 30px;
-                                                       border: 1px solid #e2edf3;
-                                                       border-radius: 25px;
-                                                       text-align: center;}
+.mockups {width: 80%;
+          max-width: 60%;
+          min-width: 230px;}
+
+.together,
+.conversation,
+.users {width: 70%;
+        max-width: 80%;}
+
+.column1a__h {margin-bottom: 37px;}
+
+ .column2b__h,
+ .column2c__h,
+ .column2d__h {margin-top: 63px;}
+
+ .column2b__p,
+ .column2c__p,
+ .column2d__p {margin-top: 29px;
+               padding: 0px 41px 35px 41px;
+               color: hsl(208, 11%, 55%);}
+
+ .flex-container2,
+ .flex-container3,
+ .flex-container4 {display: flex;
+                   flex-flow: column wrap;
+                   align-items: center;
+                   margin: 0px 30px 36px 30px;
+                   border: 1px solid #e2edf3;
+                   border-radius: 25px;
+                   text-align: center;}
 
   /* End page */
 
-.central {text-align: center;
-          display: flex;
-          flex-flow: column wrap;
-          align-items: center;
-          margin: auto;
-          transform: translateY(70px);
-          border: 30px solid white;
-          background-color: white;
+.central {transform: translateY(70px);
           width: 75%;
-          border-radius: 25px;
           margin-top: -70px;}
 
-.central__p {margin-top: 38px;
-    border: 1px solid #fe52c0;
-    border-radius: 50px;
-    padding: 10px 30px 10px 30px;
-    color: white;
-    background-color: #fe52c0;
-    text-align: center;
-    margin-bottom: 0px;}
+.central__p {padding: 10px 30px 10px 30px;}
 
 .logo-svg {transform: scale(0.5);}
 
@@ -242,37 +293,11 @@ header {height: 770px;}
               margin-left: 15px;
               margin-bottom: 30px;}
 
-.email__p {clear: both;
-           color: white;
-           margin-left: 15px;
-           margin-bottom: 65px;}
+.column2e__p,
+.contact__p,
+.column3e__p {margin-left: 20px;}
 
-.column2e__p, .contact__p, .column3e__p {color: white;
-                                         margin-bottom: 28px;
-                                         margin-left: 20px;}
-
-.contact__p {margin-bottom: 57px;}
-
-footer {background-color: #002a2e;
-        color: white;}
-
-.icons2 {text-align: center;}
-
-.fa-twitter, .fa-instagram {border: 1px solid white;
-                            padding: 5px;
-                            border-radius: 100px;}
-
-.fa-facebook-f {border: 1px solid white;
-                padding: 5px 9px;
-                border-radius: 100px;}
-
-.wlogo {fill: white;
-        float: left;}
-
-.copy {margin-top: 23px;
-      padding-bottom: 40px;
-      font-size: small;
-      color: white;
+.copy {font-size: small;
       text-align: center;}
 
 }
@@ -303,69 +328,56 @@ footer {background-color: #002a2e;
                     align-items: center;
                     text-align: center;}
 
+.column1a__p {margin: 0 45px 0 45px;}
+
+.column1a__btn {padding: 10px 30px 10px 30px;
+                margin-bottom: 55px;}
+
    /* Mid page */
 
-  .mockups {width: 55%; max-width: 60%;}
+  .mockups {width: 55%;
+            max-width: 60%;}
 
-  .together, .conversation, .users {margin: 40px 0 40px 0;
-                                    width: 80%;
-                                    max-width: 80%;}
+  .together,
+  .conversation,
+  .users {margin: 40px 0 40px 0;
+          width: 80%;
+          max-width: 80%;}
 
   .column1a__h {margin-bottom: 37px;
                 font-size: 40px;}
 
-   .column2b__h, .column2c__h, .column2d__h {margin-top: 63px;
-                                             font-size: 30px;}
+   .column2b__h,
+   .column2c__h,
+   .column2d__h {margin-top: 63px;
+                 font-size: 30px;}
 
    .central__h {font-size: 40px;}
 
-  .column1a__p {margin-top: 0px;
-                padding-left: 45px;
-                padding-right: 45px;}
+   .column2b__p,
+   .column2c__p,
+   .column2d__p {margin-top: 29px;
+                 padding: 0px 41px 35px 41px;
+                 color: hsl(208, 11%, 55%);}
 
-  .column1a__btn {margin-top: 38px;
-                  border: 1px solid #fe52c0;
-                  border-radius: 50px;
-                  padding: 10px 30px 10px 30px;
-                  color: white;
-                  background-color: #fe52c0;
-                  text-align: center;
-                  margin-bottom: 55px;}
-
-   .column2b__p, .column2c__p, .column2d__p {margin-top: 29px;
-                                             padding: 0px 41px 35px 41px;
-                                             color: hsl(208, 11%, 55%);}
-
-   .flex-container2, .flex-container3, .flex-container4 {display: flex;
-                                                         flex-flow: column wrap;
-                                                         align-items: center;
-                                                         margin: 0px 30px 36px 30px;
-                                                         border: 1px solid #e2edf3;
-                                                         border-radius: 25px;
-                                                         text-align: center;}
+   .flex-container2,
+   .flex-container3,
+   .flex-container4 {display: flex;
+                    flex-flow: column wrap;
+                    align-items: center;
+                    margin: 0px 30px 36px 30px;
+                    border: 1px solid #e2edf3;
+                    border-radius: 25px;
+                    text-align: center;}
 
     /* End page */
 
-  .central {text-align: center;
-            display: flex;
-            flex-flow: column wrap;
-            align-items: center;
-            margin: auto;
-            transform: translateY(70px);
-            border: 30px solid white;
-            background-color: white;
+  .central {transform: translateY(70px);
             width: 75%;
             border-radius: 25px;
             margin-top: -70px;}
 
-  .central__p {margin-top: 38px;
-               border: 1px solid #fe52c0;
-               border-radius: 50px;
-               padding: 10px 30px 10px 30px;
-               color: white;
-               background-color: #fe52c0;
-               text-align: center;
-               margin-bottom: 0px;}
+  .central__p {padding: 10px 30px 10px 30px;}
 
   .logo-svg {transform: scale(0.5);}
 
@@ -373,45 +385,22 @@ footer {background-color: #002a2e;
             margin-bottom: 30px;
             margin-left: 114px;}
 
-.column1e, .column2e, .column3e {margin-left: 114px; color: white;}
+.column1e,
+.column2e,
+.column3e {margin-left: 114px;
+           color: white;}
 
-  .column1e__p {clear: both;
-                color: white;
-                width: 515.41px;
-                margin-left: 15px;
-                margin-bottom: 30px;}
+.column1e__p {clear: both;
+              color: white;
+              width: 515.41px;
+              margin-left: 15px;
+              margin-bottom: 30px;}
 
-  .email__p {clear: both;
-        color: white;
-        margin-left: 15px;
-        margin-bottom: 65px;}
+.column2e__p,
+.contact__p,
+.column3e__p {margin-left: 20px;}
 
-.column2e__p, .contact__p, .column3e__p {color: white;
-                                         margin-bottom: 28px;
-                                         margin-left: 20px;}
-
-  .contact__p {margin-bottom: 57px;}
-
-  footer {background-color: #002a2e;
-          color: white;}
-
-  .icons2 {text-align: center;}
-
-  .fa-twitter, .fa-instagram {border: 1px solid white;
-                              padding: 5px;
-                              border-radius: 100px;}
-
-  .fa-facebook-f {border: 1px solid white;
-                  padding: 5px 9px;
-                  border-radius: 100px;}
-
-  .wlogo {fill: white;
-          float: left;}
-
-  .copy {margin-top: 23px;
-        color: white;
-        padding-bottom: 40px;
-        font-size: medium;
+  .copy {font-size: medium;
         text-align: center;}
 
 }
@@ -452,21 +441,14 @@ body {font-size: 26px;}
            display: flex;
            justify-content: flex-end;}
 
-.mockups {width: 680px;
-       height: 478px;}
-
-.column1a__btn {margin-top: 39px;
-                border: 1px solid #fe52c0;
-                width: 420px;
-                text-align: center;
+.column1a__btn {width: 420px;
                 align-self: center;
-                background-color: #fe52c0;
-                color: white;
-                font-weight: normal;
-                border-radius: 50px;
                 padding: 23px 73px 23px 73px;}
 
 /* Mid page */
+
+.mockups {width: 680px;
+          height: 478px;}
 
 .flex-container2 {display: flex;
                   flex-flow: row wrap;
@@ -474,10 +456,7 @@ body {font-size: 26px;}
                   margin: 0px 17px 0px 17px;
                   align-items: center;
                   text-align: left;
-                  margin-left: 100px;
-                  margin-top: 154px;
-                  margin-right: 104px;
-                  margin-bottom: 36px;
+                  margin: 154px 104px 36px 100px;
                   border: 3px solid #f7f7f7;
                   padding: 126px 118px 50px 122px;}
 
@@ -497,13 +476,9 @@ body {font-size: 26px;}
 .flex-container3 {display: flex;
                   flex-flow: row wrap;
                   clear: both;
-                  margin: 0px 17px 0px 17px;
                   align-items: center;
                   text-align: left;
-                  margin-left: 100px;
-                  margin-top: 36px;
-                  margin-right: 104px;
-                  margin-bottom: 36px;
+                  margin: 36px 100px;
                   border: 3px solid #f7f7f7;
                   padding: 126px 118px 50px 122px;}
 
@@ -546,29 +521,13 @@ body {font-size: 26px;}
 
 /* End page */
 
-.central {text-align: center;
-          display: flex;
-          flex-flow: column wrap;
-          align-items: center;
-          margin: auto;
-          transform: translateY(130px);
-          border: 5px solid #fafafa;
-          background-color: white;
+.central {transform: translateY(130px);
           width: 60%;
-          border-radius: 25px;
           margin-top: 156px;
-          padding-top: 80px;
-          padding-bottom: 80px;}
+          padding: 80px 0;}
 
-.central__p {margin-top: 36px;
-             border: 1px solid #fe52c0;
-             border-radius: 50px;
-             padding: 32px 100px 32px 100px;
-             color: white;
-             background-color: #fe52c0;
-             text-align: center;
-             width: 40%;
-             margin-bottom: 0px;}
+.central__p {padding: 32px 100px 32px 100px;
+             width: 40%;}
 
 .logo-svg {transform: scale(1.0);}
 
@@ -581,37 +540,11 @@ body {font-size: 26px;}
      margin-left: 15px;
      margin-bottom: 30px;}
 
-.email__p {clear: both;
-      color: white;
-      margin-left: 15px;
-      margin-bottom: 65px;}
+.column2e__p,
+.contact__p,
+.column3e__p {margin-left: 118px;}
 
-.column2e__p, .contact__p, .column3e__p {color: white;
-                                         margin-bottom: 28px;
-                                         margin-left: 118px;}
-
-.contact__p {margin-bottom: 57px;}
-
-footer {background-color: #002a2e;
-        color: white;}
-
-.icons2 {text-align: center;}
-
-.fa-twitter, .fa-instagram {border: 1px solid white;
-                            padding: 5px;
-                            border-radius: 100px;}
-
-.fa-facebook-f {border: 1px solid white;
-                padding: 5px 9px;
-                border-radius: 100px;}
-
-.wlogo {fill: white;
-        float: left;}
-
- .copy {margin-top: 23px;
-       padding-bottom: 40px;
-       font-size: small;
-       color: white;
+ .copy {font-size: medium;
        text-align: right;
        margin-right: 80px;}
 
