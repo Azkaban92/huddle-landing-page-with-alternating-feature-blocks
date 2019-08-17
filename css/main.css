@@ -107,7 +107,7 @@ textarea {
 
  p {margin: 0px;}
 
- /* Top page */
+                /* Top page */
 
 header {background-image: url("../img/bg-hero-mobile.svg");
         background-size: 100% 100%;
@@ -148,7 +148,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
                 background-color: #fe52c0;
                 text-align: center;}
 
-/* End page */
+                /* End page */
 
 .central {text-align: center;
           display: flex;
@@ -189,12 +189,14 @@ footer {background-color: #002a2e;
       padding-bottom: 40px;
       color: white;}
 
-/* Icons */
+              /* Icons */
 
 a i {text-decoration: none;
     color: white;}
 
 .icons2 {text-align: center;}
+
+.fa-twitter {margin: 0 13px;}
 
 .fa-twitter, .fa-instagram {border: 1px solid white;
                             padding: 5px;
@@ -328,7 +330,8 @@ header {height: 770px;}
                     align-items: center;
                     text-align: center;}
 
-.column1a__p {margin: 0 45px 0 45px;}
+.column1a__p {width: 677px;
+              margin: 0 45px 0 45px;}
 
 .column1a__btn {padding: 10px 30px 10px 30px;
                 margin-bottom: 55px;}
