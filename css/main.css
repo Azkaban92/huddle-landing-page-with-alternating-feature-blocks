@@ -127,8 +127,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
     font-family: "Open Sans";
     font-weight: 400;}
 
-.btn {font-family: "Open Sans";
-      font-weight: 700;}
+.btn {font-family: "Open Sans";}
 
 .logo {float: left;
        padding-bottom: 96px;}
@@ -136,7 +135,8 @@ header {background-image: url("../img/bg-hero-mobile.svg");
 .trial {float: right;
         border: 1px solid #e2edf3;
         background-color: white;
-        border-radius: 200px;}
+        border-radius: 200px;
+        box-shadow: 0 3px 3px hsla(208, 11%, 55%, 0.4);}
 
 .flex-container1 {display: flex;
                   clear: both;}
