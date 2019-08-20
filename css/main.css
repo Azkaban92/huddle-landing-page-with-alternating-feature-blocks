@@ -1,4 +1,4 @@
-.column2d__h.column1a__p/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -303,7 +303,7 @@ header {height: 770px;}
 
 /* Tablet page */
 
-@media screen and (min-width: 768px) and (max-width: 1439px)
+@media screen and (min-width: 768px) and (max-width: 1280px)
 
 {
 
@@ -334,7 +334,7 @@ header {height: 770px;}
 
    /* Mid page */
 
-  .mockups {width: 55%;
+  .mockups {width: 40%;
             max-width: 60%;}
 
   .together,
@@ -405,13 +405,13 @@ header {height: 770px;}
 
 /* Desktop page */
 
-@media screen and (min-width: 1440px) and (max-width: 1920px)
+@media screen and (min-width: 1281px) and (max-width: 1920px)
 
 {
 
 body {font-size: 26px;}
 
-header {height: 770px;}
+header {height: 870px;}
 
 .heading {font-size: 48px;}
 
@@ -466,7 +466,7 @@ header {height: 770px;}
            height: 331px;}
 
 .column2b__p {margin-right: 208px;
-              width: 650px;
+              width: 80%;
               color: hsl(208, 11%, 55%);}
 
 .flex-container3 {display: flex;
@@ -491,7 +491,7 @@ header {height: 770px;}
 .column2c__h {margin-left: 174px;}
 
 .column2c__p {margin-left: 174px;
-              width: 650px;
+              width: 80%;
               color: hsl(208, 11%, 55%);}
 
 .flex-container4 {display: flex;
@@ -514,7 +514,7 @@ header {height: 770px;}
        height: 331px;}
 
 .column2d__p {margin-right: 208px;
-              width: 650px;
+              width: 80%;
               color: hsl(208, 11%, 55%);}
 
 /* End page */
