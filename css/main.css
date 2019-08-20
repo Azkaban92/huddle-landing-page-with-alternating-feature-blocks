@@ -160,7 +160,7 @@ header {background-image: url("../img/bg-hero-mobile.svg");
           background-color: white;
           border-radius: 25px;}
 
-.central__p {margin: 38px 0 0 0;
+.central__btn {margin: 38px 0 0 0;
              border: 1px solid #fe52c0;
              border-radius: 50px;
              color: white;
@@ -280,7 +280,7 @@ header {height: 770px;}
           width: 75%;
           margin-top: -70px;}
 
-.central__p {padding: 10px 30px 10px 30px;}
+.central__btn {padding: 10px 30px 10px 30px;}
 
 .logo-svg {transform: scale(0.5);}
 
@@ -377,12 +377,12 @@ header {height: 770px;}
             border-radius: 25px;
             margin-top: 0px;}
 
-  .central__p {padding: 17px 50px;}
+  .central__btn {padding: 17px 50px;}
 
   .logo-svg {transform: scale(0.5);}
 
     .logo3 {padding-top: 140px;
-            margin: 0 0 30px 14px;}
+            margin: 0 0 30px 114px;}
 
 .column1e,
 .column2e,
@@ -524,33 +524,32 @@ header {height: 870px;}
           margin-top: 156px;
           padding: 80px 0;}
 
-.central__p {padding: 32px 100px 32px 100px;
+.central__btn {padding: 32px 100px 32px 100px;
              width: 460px;}
 
 .logo-svg {transform: scale(1.0);}
 
 .logo3 {padding-top: 240px;
         margin-bottom: 30px;
-        margin-left: 114px;}
+        margin-left: 70px;}
+
+.column1e {width: 40%;}
 
 .column1e__p {clear: both;
-     color: white;
-     margin: 0 0 30px 15px;}
+              color: white;
+              width: 80%;
+              margin: 0 0 30px 15px;}
 
-.column2e__p,
-.contact__p,
-.column3e__p {margin-left: 118px;}
 
  .copy {font-size: medium;
        text-align: right;
        margin-right: 80px;}
 
 .flex-container5 {display: flex;
-                  justify-content: center;
-                  margin: auto;}
+                  justify-content: space-around;
+                  margin: 0 70px;}
 
-.column1e {width: 40%;
-           margin-left: 114px;}
+
 
 .column2e,
 .column3e,
